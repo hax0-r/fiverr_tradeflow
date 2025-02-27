@@ -44,6 +44,7 @@ html {
   background: #F5F9F9;
   color: #707070;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /*
