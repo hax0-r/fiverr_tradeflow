@@ -5753,7 +5753,7 @@ ul.uk-nav-sub {
 /* Container
  ========================================================================== */
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: #181818;
+  /* background: #181818; */
 }
 
 /* Groups
@@ -5877,7 +5877,7 @@ ul.uk-nav-sub {
  */
 .uk-navbar-nav>li>a {
   padding: 0 18px;
-  color: #a9afba;
+  color: #232323;
 }
 
 /*
@@ -26113,7 +26113,7 @@ header .in-optional-nav {
 }
 
 header .in-optional-nav .uk-button-text {
-  color: #fff;
+  color: #181818;
   margin-right: 25px;
 }
 
@@ -26166,11 +26166,11 @@ header .in-optional-nav .uk-button-text {
 .in-slideshow-gradient {
   background: rgb(38, 38, 40);
   background: linear-gradient(0deg, rgb(38, 38, 40) 0%, rgb(24, 24, 24) 80%, rgb(24, 24, 24) 100%);
-  margin-top: -92px;
+  /* margin-top: -92px; */
 }
 
 .in-slideshow {
-  padding-top: 92px;
+  /* padding-top: 92px; */
   height: 580px;
 }
 
