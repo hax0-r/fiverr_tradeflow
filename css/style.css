@@ -26164,8 +26164,8 @@ header .in-optional-nav .uk-button-text {
 }
 
 .in-slideshow-gradient {
-  background: rgb(38, 38, 40);
-  background: linear-gradient(0deg, rgb(38, 38, 40) 0%, rgb(24, 24, 24) 80%, rgb(24, 24, 24) 100%);
+  /* background: rgb(38, 38, 40);
+  background: linear-gradient(0deg, rgb(38, 38, 40) 0%, rgb(24, 24, 24) 80%, rgb(24, 24, 24) 100%); */
   /* margin-top: -92px; */
 }
 
@@ -26203,9 +26203,9 @@ header .in-optional-nav .uk-button-text {
 
 .in-slideshow .in-badge-text {
   height: 21px;
-  color: #cacdd1;
+  color: #01050a;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(50 195 221 / 19%);
   border-radius: 7px;
   padding: 7px 16px 6px 16px;
 }
