@@ -3371,8 +3371,8 @@ select.uk-form-width-xsmall {
  * Warning
  */
 .uk-label-warning {
-  background-color: #b861a716;
-  color: #b861a6;
+  background-color: #32c3dd1e;
+  color: #32c3dd;
 }
 
 /*
@@ -25615,44 +25615,31 @@ readers do not read off random characters that represent icons */
   background: #6ca0f5;
 }
 
-.color-facebook {
-  background: #3b5998;
+.color-facebook, .color-twitter, .color-youtube, .color-instagram, .color-telegram, .color-whatsapp, .color-linkedin {
+  background: #00b3d3;
+  transition: 400ms all;
 }
 
 .color-facebook:hover {
-  background: #466ab5;
+  background: #0089d3;
 }
 
-.color-twitter {
-  background: #00acee;
-}
 
 .color-twitter:hover {
-  background: #18bfff;
+  background: #0089d3;
 }
 
-.color-youtube {
-  background: #c4302b;
-}
 
 .color-youtube:hover {
-  background: #d64742;
-}
-
-.color-instagram {
-  background: #DD2A7B;
+  background: #0089d3;
 }
 
 .color-instagram:hover {
-  background: #e34d91;
-}
-
-.color-telegram {
-  background: #0088CC;
+  background: #0089d3;
 }
 
 .color-telegram:hover {
-  background: #00a3f5;
+  background: #0089d3;
 }
 
 .color-whatsapp {
@@ -26225,7 +26212,7 @@ header .in-optional-nav .uk-button-text {
 
 .in-slideshow .in-badge-text .uk-label {
   color: #fff;
-  background: #b863a7;
+  background: #32c3dd;
   margin: -2px 14px 0 -10px;
   padding-left: 12px;
   padding-right: 12px;
@@ -26427,8 +26414,12 @@ header .in-optional-nav .uk-button-text {
   padding-bottom: 16px;
 }
 
+footer .uk-link-text li a {
+  transition: 400ms all;
+}
+
 footer .uk-link-text li a:hover {
-  color: #e89903;
+  color: #32c3dd;
   text-decoration: none;
 }
 
@@ -26439,15 +26430,19 @@ footer .social-media-list {
 }
 
 footer .social-media-list div {
-  line-height: 2.8;
+  margin-top: .5rem;
 }
 
 footer .social-media-list div a {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  border-radius: 10px;
-  padding: 8px 10px;
+  border-radius: 100%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer .social-media-list div a:hover {
@@ -26458,7 +26453,7 @@ footer .social-media-list div a:hover {
 footer .social-media-list div a .fab {
   font-size: 15px;
   color: #fff;
-  margin-right: 8px;
+  /* margin-right: 8px; */
   position: relative;
   top: 1px;
 }
