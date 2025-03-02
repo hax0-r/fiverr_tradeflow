@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us</title>
+    <link rel="shortcut icon" href="./Docs/Images/facicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./Docs/Styles/global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+
+
+    <div class="">
+        <div class="bg-[#1c9fb5]">
+            <div id="navbar"></div>
+            <div
+                class="text-white  min-h-[calc(100vh-104px)] p-5 w-full flex md:items-start max-w-7xl w-full mx-auto items-center justify-center flex-col">
+
+                <div class="md:max-w-[50%] w-full z-20">
+                    <h1 class="md:text-6xl text-4xl md:leading-tight max-w-[70rem] font-bold uppercase">Get in touch
+                        with us</h1>
+                    <h2 class="md:text-lg font-medium mt-6 ">
+                        We are always here to help you. If you have any questions, please don't hesitate to contact us.
+                    </h2>
+                </div>
+                <div class="md:max-w-[60%] w-full absolute right-0 top-0">
+                    <img src="./Docs/Images/Header-Mask.svg" alt="" class="w-full h-full">
+                    <img src="https://tradeflow-1.netlify.app/img/Home/img2.jpg"
+                        class="w-full h-full absolute top-0 left-0 brightness-50" style="-webkit-mask-image: url('./Docs/Images/Header-Mask.svg');
+                                -webkit-mask-size: cover;
+                                -webkit-mask-position: center;
+                                mask-image: url('./Docs/Images/Header-Mask.svg');
+                                mask-size: cover;
+                                mask-position: center;" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="max-w-7xl w-full mx-auto p-5 md:mt-14 mt-10 flex items-center justify-center md:flex-row flex-col md:gap-20 gap-5">
+            <div class="md:max-w-[50%] w-full">
+                <h2 class="md:text-5xl text-3xl text-[#1c9fb5] font-semibold">Contact Us</h2>
+                <ul class="text-sm mt-8 overflow-hidden transition-all duration-500">
+                    <li class="mb-6 "><a href="tel:+447932574484"
+                            class="text-gray-700 text-lg hover:text-gray-500 transition-all duration-500 flex items-center gap-3"> <i
+                                class="fa-solid fa-mobile-screen-button text-xl bg-[#1c9fb5] text-white rounded-lg w-10 h-10 flex items-center justify-center"></i> +44 7932574484</a></li>
+                    <li class="mb-6 "><a href="tel:+971585383851"
+                            class="text-gray-700 text-lg hover:text-gray-500 transition-all duration-500 flex items-center gap-3"> <i
+                                class="fa-solid fa-mobile-screen-button text-xl bg-[#1c9fb5] text-white rounded-lg w-10 h-10 flex items-center justify-center"></i> +97158 538 3851</a></li>
+                    <li class="mb-6"><a href="mailto:Tradeflowmanagementservices@gmail.com"
+                            class=" text-gray-700 text-lg hover:text-gray-500 transition-all duration-500 flex items-center gap-3 text-wrap"><i
+                                class="fa-solid fa-envelope text-xl bg-[#1c9fb5] text-white rounded-lg w-10 h-10 flex items-center justify-center"></i> <span>Tradeflowmanagementser<span class="md:inline block">vices@gmail.com</span></span></a></li>
+                </ul>
+            </div>
+            <div class="md:max-w-[50%] w-full">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60882265.38394269!2d54.60384492977886!3d21.352128919111095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3663f18a24cbe857%3A0xa9416bfcd3a0f459!2sAsia!5e0!3m2!1sen!2s!4v1740895627791!5m2!1sen!2s"
+                    class=" w-full h-[500px] rounded-md" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="max-w-7xl mx-auto w-full md:mt-20 mt-5 p-5">
+                <input type="hidden" name="access_key" value="3d7cef32-db50-476b-a889-a18ae01858a2">
+                <input required type="text" placeholder="Name"
+                    class="w-full p-3 mt-4 rounded-md border border-zinc-300">
+                <input required type="email" placeholder="Email"
+                    class="w-full p-3 mt-4 rounded-md border border-zinc-300">
+                <input required type="text" placeholder="Phone"
+                    class="w-full p-3 mt-4 rounded-md border border-zinc-300">
+                <textarea name="message" id="message" rows="5" placeholder="Message"
+                    class="w-full p-3 mt-4 rounded-md border border-zinc-300"></textarea>
+                <button type="submit"
+                    class="bg-[#1c9fb5] text-white p-3 mt-4 w-full rounded-md hover:bg-[#1c9fb5]/80 transition-all duration-300">Submit</button>
+            </form>
+
+
+
+        <div id="footer"></div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="./Docs/Javascripts/global.js"></script>
+    <script src="./Docs/Javascripts/footer.js"></script>
+    <script src="./Docs/Javascripts/navbar.js"></script>
+
+</body>
+
+</html>
