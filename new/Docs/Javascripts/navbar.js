@@ -3,7 +3,7 @@ const navbar = document.getElementById("navbar");
 navbar.innerHTML = `
             <nav class="z-40 relative">
                 <div class="max-w-7xl text-white mx-auto flex justify-between items-center w-full p-5">
-                    <a href="./index.html" class="bg-white rounded-lg block p-2 opacity-0 slidein [--slidein-delay:100ms] ">
+                    <a href="./index.html" class=" rounded-lg block p-2 opacity-0 slidein [--slidein-delay:100ms] ">
                         <img src="./Docs/Images/logo.png" alt="logo" class=" h-24">
                     </a>
                     <ul class="md:flex hidden items-center gap-7 opacity-0 slidein [--slidein-delay:200ms] ">
