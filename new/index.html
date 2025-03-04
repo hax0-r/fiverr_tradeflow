@@ -38,17 +38,20 @@
                 class="text-white  min-h-[calc(100vh-104px)] p-5 w-full flex md:items-start max-w-7xl w-full mx-auto items-center justify-center flex-col">
 
                 <div class="md:max-w-[50%] w-full z-20">
-                    <h1 class="md:text-6xl text-4xl md:leading-tight max-w-[70rem] font-bold uppercase">Your
+                    <h1
+                        class="md:text-6xl text-4xl md:leading-tight max-w-[70rem] font-bold uppercase opacity-0  slidein [--slidein-delay:300ms] ">
+                        Your
                         Trusted
                         Distribution Partner</h1>
-                    <h2 class="md:text-lg font-medium mt-6 ">At Tradeflow Management Services, we specialize in the
+                    <h2 class="md:text-lg font-medium mt-6 slidein [--slidein-delay:500ms] opacity-0 ">At Tradeflow
+                        Management Services, we specialize in the
                         sourcing, wholesale, and distribution of trending confectionery products. With over five years
                         of experience working with companies across the UK, UAE, Germany, and the Netherlands, we are
                         proud to be at the forefront of the confectionery distribution industry.
 
                     </h2>
                 </div>
-                <div class="md:max-w-[60%] w-full absolute right-0 top-0">
+                <div class="md:max-w-[60%] w-full absolute right-0 top-0 opacity-0 slidein [--slidein-delay:700ms] ">
                     <img src="./Docs/Images/Header-Mask.svg" alt="" class="w-full h-full">
                     <img src="./Docs/Images/main.jpg" class="w-full h-full absolute top-0 left-0 brightness-50" style="-webkit-mask-image: url('./Docs/Images/Header-Mask.svg');
                                 -webkit-mask-size: cover;
@@ -63,8 +66,7 @@
         <div
             class="max-w-7xl w-full mx-auto p-5 md:mt-28 mt-10 flex items-center justify-center md:flex-row flex-col md:gap-40 gap-5">
             <div class="md:max-w-[50%] w-full">
-                <img src="./Docs/Images/value.jpg"
-                    class="w-full rounded-lg" alt="">
+                <img src="./Docs/Images/value.jpg" class="w-full rounded-lg" alt="">
             </div>
             <div class="md:max-w-[70%] w-full">
                 <h2 class="md:text-5xl text-3xl text-[#b761a7] font-semibold">Trending Supply</h2>
@@ -76,7 +78,37 @@
             </div>
         </div>
 
-        <div class="max-w-7xl md:mt-20 mt-10  text-center  w-full mx-auto p-5 ">
+        <div class="max-w-7xl md:mt-36 mt-10  text-center  w-full mx-auto p-5 ">
+            <div class="grid md:grid-cols-3 grid-cols-1 gap-5">
+                <div class="bg-white border md:py-10 border-zinc-200 p-5 rounded-lg">
+                    <i class="fa-solid fa-earth-americas text-7xl mb-6 text-[#b761a7]"></i>
+                    <h2 class="text-2xl font-semibold capitalize">Who we work with</h2>
+                    <p class="text-zinc-600 mt-3">We work with a wide range of clients, from small independent
+                        businesses to
+                        large multinational corporations. Our flexible approach ensures that we can meet the unique
+                        needs
+                        of each client.</p>
+                </div>
+                <div class="bg-white border md:py-10 border-zinc-200 p-5 rounded-lg">
+                    <i class="fa-solid fa-business-time text-7xl mb-6 text-[#b761a7]"></i>
+                    <h2 class="text-2xl font-semibold capitalize">Wholesale</h2>
+                    <p class="text-zinc-600 mt-3">SET's comprehensive wholesale solutions range
+                        from sourcing products to managing logistics
+                        and efficiency and reliability are our
+                        watchwords.</p>
+                </div>
+                <div class="bg-white border md:py-10 border-zinc-200 p-5 rounded-lg">
+                    <i class="fa-solid fa-users text-7xl mb-6 text-[#b761a7]"></i>
+                    <h2 class="text-2xl font-semibold capitalize">About Us</h2>
+                    <p class="text-zinc-600 mt-3">We are a family-run business committed to
+                        working sustainably with our valued customers
+                        in relationships built on trust and respect</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl md:mt-24 mt-10  text-center  w-full mx-auto p-5 ">
             <h2 class="md:text-5xl text-3xl text-[#b761a7] capitalize md:!leading-normal !leading-tight font-semibold">
                 Let us help you
                 build a strong foundation
@@ -97,8 +129,7 @@
                     </p>
                 </div>
                 <div class="md:max-w-[50%] w-full">
-                    <img src="./Docs/Images/mission.webp"
-                        class="w-full rounded-lg" alt="">
+                    <img src="./Docs/Images/mission.webp" class="w-full rounded-lg" alt="">
                 </div>
             </div>
         </div>
@@ -108,7 +139,8 @@
             <h2 class="md:text-5xl text-4xl text-[#b761a7] font-semibold">Contact Us</h2>
             <p class="md:mt-4 mt-3 text-zinc-600 md:text-lg">We are always here to help you. If you have any questions,
                 please don't hesitate to contact us.</p>
-            <form action="https://api.web3forms.com/submit" method="POST" class="md:mt-10 mt-5 max-w-3xl mx-auto w-full">
+            <form action="https://api.web3forms.com/submit" method="POST"
+                class="md:mt-10 mt-5 max-w-3xl mx-auto w-full">
                 <input type="hidden" name="access_key" value="3d7cef32-db50-476b-a889-a18ae01858a2">
                 <input required type="text" placeholder="Name"
                     class="w-full p-3 mt-4 rounded-md border border-zinc-300">
