@@ -24,7 +24,7 @@ navbar.innerHTML = `
             </nav>
 
             <div id="mobileMenu"
-                class="fixed right-0 top-0 bg-[#1c9fb5] max-w-full w-0 overflow-hidden h-screen z-50 transition-all duration-500">
+                class="fixed right-0 top-0 bg-[#000080] max-w-full w-0 overflow-hidden h-screen z-50 transition-all duration-500">
                 <i id="mobileMenuCloseBtn"
                     class="fa-solid text-white fa-x z-50 relative flex items-end justify-end p-5 text-2xl cursor-pointer"></i>
                 <ul class="flex relative z-50 flex-col p-10 gap-7">
