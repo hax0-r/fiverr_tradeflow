@@ -14,7 +14,7 @@ footer.innerHTML = `
                     <!--End Col-->
                     <div class="lg:mx-auto text-left ">
                         <h4 class="text-lg text-[#fff] font-medium mb-7">Contact Us</h4>
-                        <p class="text-gray-300 text-sm mb-5">123, Main Street, Anytown, USA</p>
+                        <p class="text-gray-300 text-sm mb-5">Kingsway, Luton, LU1 1LP, Bedfordshire, UK</p>
                         <ul class="text-sm  transition-all duration-500">
                             <li class="mb-6 "><a href="tel:+447932574484"
                                     class="text-gray-300 hover:text-gray-100 flex items-center gap-3"> <i
