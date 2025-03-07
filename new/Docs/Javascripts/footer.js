@@ -5,7 +5,7 @@ footer.innerHTML = `
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <!--Grid-->
                 <div
-                    class="grid grid-cols-1 sm:grid-cols-3  gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
+                    class="grid grid-cols-1 sm:grid-cols-2  gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
                     <div class="mb-10 lg:mb-0">
                         <a href="./index.html" class="flex justify-center lg:justify-start">
                             <img src="./Docs/Images/logo.png" alt="logo" class=" h-32">
@@ -28,7 +28,7 @@ footer.innerHTML = `
                         </ul>
                     </div>
                     <!--End Col-->
-                    <div class="lg:mx-auto text-left ">
+                   <!-- <div class="lg:mx-auto text-left ">
                         <h4 class="text-lg text-[#fff] font-medium mb-7">Connect With Us</h4>
                         <ul class="text-sm  transition-all duration-500">
                             <li class="mb-4 "><a href="#"
@@ -41,7 +41,7 @@ footer.innerHTML = `
                                 class="text-gray-300 hover:text-gray-100 flex items-center gap-3"> <i
                                     class="fa-brands fa-instagram text-xl"></i> Instagram</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                   
                 </div>
                 <!--Grid-->
